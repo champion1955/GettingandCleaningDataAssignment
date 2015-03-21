@@ -14,32 +14,32 @@
  )
 
 # Arguments:
-     *features: a vector of the features of the data that is used to name variables 
-     *xTestData: contains the results from the test subjects
-     *yTestData: contains the labels from the test subjects
-     *subjectTestData: identifies the subject that performed the test activities
-     *xTrainData: contains the results from the training subjects
-     *yTrainData: contains the labels from the training subjects
-     *subjectTrainData: identifies the subject that performed the training activities
-     *activities: identifies activities performed
+     * features: a vector of the features of the data that is used to name variables 
+     * xTestData: contains the results from the test subjects
+     * yTestData: contains the labels from the test subjects
+     * subjectTestData: identifies the subject that performed the test activities
+     * xTrainData: contains the results from the training subjects
+     * yTrainData: contains the labels from the training subjects
+     * subjectTrainData: identifies the subject that performed the training activities
+     * activities: identifies activities performed
 
 # Returns:
-     *tidyData: returns a cleaned up version of the data
+     * tidyData: returns a cleaned up version of the data
 	
 # Examples:
-*dataSet <- run_analysys()
+* dataSet <- run_analysys()
 
  OR
 
-*dataSet <- run_analysys(features, xTestData, subjectTestData, yTestData, xTrainData, subjectTrainData, yTrainData, activities)
+* dataSet <- run_analysys(features, xTestData, subjectTestData, yTestData, xTrainData, subjectTrainData, yTrainData, activities)
 	
-*View(dataSet)
+* View(dataSet)
 
 # Notes:
  The following script can be used in R to view tidied data.
 
- *library(dplyr)
- *address <- "https://s3.amazonaws.com/coursera-uploads/user-85c67ad8b034013c4a59a096/973499/asst-3/880d2200cefc11e481a89d40414a45bb.txt"
- *address <- sub("^https", "http", address)
- *data <- read.table(url(address), header = TRUE) 
- *View(data)
+ * library(dplyr)
+  *address <- "https://s3.amazonaws.com/coursera-uploads/user-85c67ad8b034013c4a59a096/973499/asst-3/880d2200cefc11e481a89d40414a45bb.txt"
+ * address <- sub("^https", "http", address)
+ * data <- read.table(url(address), header = TRUE) 
+ * View(data)
