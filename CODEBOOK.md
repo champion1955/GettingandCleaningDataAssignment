@@ -11,7 +11,7 @@
  from the  function.
 
 # Raw data: 
- Subject Test and Training Data:
+## Subject Test and Training Data:
  1-30, representative of the 30 different participants 
 
 ## Activity Labels:
