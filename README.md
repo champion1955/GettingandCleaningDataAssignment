@@ -1,5 +1,5 @@
 ## Description:
-### Run_analysis is a function that can accept as input or use default files to get and clean Samsung wearable experimental data and output to a new tidied dataset. See the codebook for more information on the variables used and ### transformation process.
+### Run_analysis is a function that can accept as input or use default files to get and clean Samsung wearable experimental data and output to a new tidied dataset. See the codebook for more information on the variables used and transformation process.
 
 ## Usage:
 ### run_analysis(
